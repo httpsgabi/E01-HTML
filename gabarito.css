@@ -17,23 +17,7 @@ table#tabelagabarito{
     background-color: #cfaacc;
 }
 
-table#tabelagabarito td.ce{
-
-}
-
-table#tabelagabarito td.cd{
-
-}
-
 table#tabelagabarito td{
     border: 1px solid rgb(218, 24, 201);
     vertical-align: middle;
-}
-
-table#tabelagabarito td.ce{
-    
-}
-
-table#tabelagabarito td.cd{
-    
 }
