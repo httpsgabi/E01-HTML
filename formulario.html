@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                    <div>
+                    <label for="nome">Código: </label>
+                    <input type="number"/>
+                    </div>
+                    <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text"/>
+                    </div>
+                    <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password"/>
+                    </div>
+                    <div>
+                    <label>
+                        <input type="radio" name="sexo" id="sexofeminino">
+                        Feminino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" id="sexomasculino">
+                        Masculino
+                    </label>
+                    </div>
+                    <div>
+                    <label for="idade">Idade: </label>
+                    <input type="number"/>
+                    </div>
+                    <div>
+                        <label for="nome">Cartão de Crédito: </label>
+                        <select name="select">
+                            <option value="valor1">Mastercard</option>
+                            <option value="valor2" selected>Visa</option>
+                            <option value="valor3">American Express</option>
+                          </select>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <div>
+                    <label for="nome">Cargo: </label>
+                    <select multiple="select">
+                        <option value="valor1">Analista Júnior</option>
+                        <option value="valor2" selected>Analista Pleno</option>
+                        <option value="valor3">Analista Sênior</option>
+                      </select>
+                </div>
+                <div>
+                    <label for="dadospessoais">Dados Pessoais:</label>
+                </div>
+                <div>
+                    <div>
+                    <input type="checkbox" id="scales" name="scales" checked>
+                    <label for="scales">Fumante</label>
+                    </div> 
+                    <div>         
+                    <input type="checkbox" id="horns" name="horns">
+                    <label for="horns">Pratica Exercícios Físicos</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="horns" name="horns">
+                    <label for="horns">Consome Bebida Alcoólica</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="expericiasprofissionais">Experiências Profissionais: </label>
+                    <textarea></textarea>
+                </div>
+            </fieldset>
+            <input type="reset"/>
+            <input type="submit"/>
+        </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h1{
+    color: #ffffff;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+table#tabelagabarito{
+    border: 1px solid rgb(218, 24, 201);
+    color: #000000;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 25%;
+    margin-left: 45%;
+    border-spacing: 0px;
+    background-color: #cfaacc;
+}
+
+table#tabelagabarito td.ce{
+
+}
+
+table#tabelagabarito td.cd{
+
+}
+
+table#tabelagabarito td{
+    border: 1px solid rgb(218, 24, 201);
+    vertical-align: middle;
+}
+
+table#tabelagabarito td.ce{
+    
+}
+
+table#tabelagabarito td.cd{
+    
+}
